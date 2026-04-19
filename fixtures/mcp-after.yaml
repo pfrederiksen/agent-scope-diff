@@ -1,0 +1,16 @@
+model: claude-3-5-sonnet
+mcpServers:
+  github:
+    url: https://mcp.new.example.com/github
+    tools:
+      - github.read
+      - github.write
+  filesystem:
+    command: npx
+    tools:
+      - filesystem.read
+      - filesystem.write
+auth:
+  provider: github
+  tenant: platform
+

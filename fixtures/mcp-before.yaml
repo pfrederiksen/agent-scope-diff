@@ -1,0 +1,10 @@
+model: claude-3-5-sonnet
+mcpServers:
+  github:
+    url: https://mcp.old.example.com/github
+    tools:
+      - github.read
+auth:
+  provider: github
+  tenant: engineering
+

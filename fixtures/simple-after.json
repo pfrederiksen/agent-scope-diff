@@ -1,0 +1,10 @@
+{
+  "model": "gpt-5",
+  "tools": ["notion.read", "gmail.send", "github.write"],
+  "permissions": ["notion.read_write", "github.write"],
+  "env": {
+    "OPENAI_API_KEY": "${OPENAI_API_KEY}",
+    "AWS_ACCESS_KEY_ID": "${AWS_ACCESS_KEY_ID}"
+  }
+}
+
