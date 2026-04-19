@@ -24,7 +24,14 @@ python3 -m pip install .
 From PyPI:
 
 ```bash
-python3 -m pip install agent-scope-diff
+pipx install agent-scope-diff
+```
+
+With Homebrew:
+
+```bash
+brew tap pfrederiksen/tap
+brew install agent-scope-diff
 ```
 
 For development:
